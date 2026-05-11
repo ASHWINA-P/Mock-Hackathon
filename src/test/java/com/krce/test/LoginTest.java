@@ -1,7 +1,6 @@
-// LoginTest.java
 
 package com.krce.test;
-
+import com.krce.utils.ConfigReader;
 import com.krce.base.BaseTest;
 import com.krce.pages.LoginPage;
 import org.openqa.selenium.By;

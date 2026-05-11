@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="StoreSuite">
+    <listeners>
+
+        <listener class-name="com.krce.listeners.TestListener"/>
+
+    </listeners>
+
+
+    <test name="StoreTests">
+
+        <classes>
+
+            <class name="com.krce.test.LoginTest"/>
+
+            <class name="com.krce.test.ProductTest"/>
+
+            <class name="com.krce.test.CartTest"/>
+
+            <class name="com.krce.test.CheckoutTest"/>
+
+            <class name="com.krce.test.ValidationTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
