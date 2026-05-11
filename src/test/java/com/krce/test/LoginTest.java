@@ -46,6 +46,7 @@ public class LoginTest extends BaseTest {
     public void logoutTest() {
         LoginPage lp = new LoginPage(driver);
         lp.login(myAccount, "test123");
+        driver.navigate().refresh();
         driver.findElement(By.linkText("My Account")).click();
         driver.findElement(By.linkText("Logout")).click();
         Assert.assertTrue(driver.getPageSource().contains("Account Logout"));

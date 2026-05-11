@@ -25,8 +25,7 @@ public class RegisterPage extends BasePage {
         this.driver = driver;
     }
 
-    public void registerUser(String fname, String lname, String userEmail, String mobile,
-                             String pass){
+    public void registerUser(String fname, String lname, String userEmail, String mobile, String pass){
 
         driver.findElement(myAccount).click();
         driver.findElement(register).click();
