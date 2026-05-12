@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    public static WebDriver driver;
     protected WebDriverWait wait;
 
 
